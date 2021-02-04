@@ -1,0 +1,308 @@
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [3.94846821])
+[Epoch 0, batch 0] loss: 3.94847
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [2.88631105])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [2.41147757])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [2.12541437])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.85715389])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.81511557])
+[Epoch 0, batch 5] loss: 1.81512
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.70429349])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.58700192])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.63260114])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.51452577])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.54104352])
+[Epoch 0, batch 10] loss: 1.54104
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.60791087])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.44759512])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.45225000])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.38444412])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.52037835])
+[Epoch 0, batch 15] loss: 1.52038
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.53969264])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.46231973])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.34436989])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.42343569])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.30080581])
+[Epoch 0, batch 20] loss: 1.30081
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.53460336])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.47830617])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.46299565])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.42660713])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.46806765])
+[Epoch 0, batch 25] loss: 1.46807
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.37729466])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.21419573])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.35736465])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.26621509])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.16935492])
+[Epoch 0, batch 30] loss: 1.16935
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.40031683])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.60547948])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.38682687])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.03464079])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.51520836])
+[Epoch 0, batch 35] loss: 1.51521
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.37540436])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.24274015])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.24047279])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.07635152])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.58940005])
+[Epoch 0, batch 40] loss: 1.58940
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.08590496])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.70557070])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.13447070])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.13447940])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.22655320])
+[Epoch 0, batch 45] loss: 1.22655
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.37163639])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.14401841])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.24135947])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.29017138])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.23705173])
+[Epoch 0, batch 50] loss: 1.23705
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.55052996])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.46317375])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.26847196])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.38651681])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.10612249])
+[Epoch 0, batch 55] loss: 1.10612
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.05450583])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.54616356])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.31339645])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.26279235])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.63952875])
+[Epoch 0, batch 60] loss: 1.63953
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.45020843])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.48212433])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.32327843])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.36057091])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.31553197])
+[Epoch 0, batch 65] loss: 1.31553
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.35626197])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.39630914])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.21573091])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.80835712])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.47108817])
+[Epoch 0, batch 70] loss: 1.47109
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.29404593])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.39854801])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.56675100])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.47218919])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.46437335])
+[Epoch 0, batch 75] loss: 1.46437
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.38451004])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.48244202])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.55252576])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.44255579])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.37512136])
+[Epoch 0, batch 80] loss: 1.37512
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.63869298])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.81433201])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.16551280])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.26140094])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.31104016])
+[Epoch 0, batch 85] loss: 1.31104
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.41675782])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.65487945])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.60506296])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.34844124])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.34627104])
+[Epoch 0, batch 90] loss: 1.34627
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.24095714])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.71334267])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.35757530])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.33107781])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.23574698])
+[Epoch 0, batch 95] loss: 1.23575
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.88248116])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.31202245])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.34998882])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.60834622])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.31133103])
+[Epoch 0, batch 100] loss: 1.31133
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.33764088])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.22470522])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.70484751])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.31492996])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.41945672])
+[Epoch 0, batch 105] loss: 1.41946
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.36966729])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.07281280])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.52824658])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.03552377])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.15245211])
+[Epoch 0, batch 110] loss: 1.15245
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.79965901])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.79920638])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.94404584])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.98348022])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.25169098])
+[Epoch 0, batch 115] loss: 1.25169
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.37201905])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.76761150])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.88193524])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.01828289])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.86636007])
+[Epoch 0, batch 120] loss: 0.86636
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.15083599])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.94379711])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.07757437])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.83374393])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.08520353])
+[Epoch 0, batch 125] loss: 1.08520
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.31506634])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.81343275])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.94356382])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.79307622])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.10759187])
+[Epoch 0, batch 130] loss: 1.10759
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.23950744])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.25791454])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.28445196])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.93745315])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.51255631])
+[Epoch 0, batch 135] loss: 1.51256
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.95459187])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.87098700])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [1.29846537])
+Tensor(shape=[1], dtype=float32, place=CUDAPlace(0), stop_gradient=False,
+       [0.68499976])

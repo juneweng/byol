@@ -14,6 +14,7 @@ from resnet import ResNet50
 
 # helper functions
 
+
 def default(val, def_val):
     return def_val if val is None else val
 
@@ -262,14 +263,18 @@ class EMA():
 
 def update_moving_average(ema_updater, ma_model, current_model):                                    
     for current_params, ma_params in zip(current_model.parameters(), ma_model.parameters()):        
-        old_weight, up_weight = ma_params.data, current_params.data                                 
-        ma_params.data = ema_updater.update_average(old_weight, up_weight) 
+        # old_weight, up_weight = ma_params.data, current_params.data 
+        # tmp = current_params
+        # current_params.set_value(ma_params)  
+        # ma_params.set_value(tmp)                              
+        ma_params.set_value(ema_updater.update_average(ma_params, current_params))
 
 
 def init_online_encoder(ma_model, current_model):                                    
     for current_params, ma_params in zip(current_model.parameters(), ma_model.parameters()):        
         # old_weight, up_weight = ma_params.data, current_params.data  
-        ma_params = current_params                               
+        # ma_params = current_params         
+        ma_params.set_value(current_params)                      
         # ma_params.data = ema_updater.update_average(old_weight, up_weight)  
     # return ma_params                                                                                                   
 
@@ -347,7 +352,7 @@ class NetWrapper(nn.Layer):
         # self.hidden = paddle.flatten(u,start_axis=-2, stop_axis=-1)
         # hidden = self.hidden
         hidden = u
-        print("hidden.shape",hidden.shape)
+        # print("hidden.shape",hidden.shape)
         _, dim = hidden.shape
         # o = self.MLPnet(hidden)
         # print("o.shape",o.shape)
@@ -357,7 +362,7 @@ class NetWrapper(nn.Layer):
 
     def forward(self, x, return_embedding = False):
         representation = self.get_representation(x)
-        print("representation.shape",representation.shape)
+        # print("representation.shape",representation.shape)
 
         if return_embedding:
             return representation
@@ -420,47 +425,48 @@ class BYOL(nn.Layer):
         assert self.target_encoder is not None, 'target encoder has not been created yet'                                                        
         update_moving_average(self.target_ema_updater, self.target_encoder, self.online_encoder)                                                                                                                                                                   
 
-    def forward(self, x, return_embedding = False):
-        if return_embedding:
-            return self.online_encoder(x)
+    def forward(self, img_one, img_two):
+        # if return_embedding:
+        #     return self.online_encoder(x)
 
-        image_one, image_two = x, x
+        # image_one, image_two = x, x
 
         # print("image_one.shape", image_one.shape)
         # print("image_two.shape", image_two.shape)
 
-        online_proj_one, _ = self.online_encoder(image_one)       
-        online_proj_two, _ = self.online_encoder(image_two)       
+        online_proj_one, _ = self.online_encoder(img_one)       
+        online_proj_two, _ = self.online_encoder(img_two)    
                                                                 
         online_pred_one = self.online_predictor(online_proj_one)  
         online_pred_two = self.online_predictor(online_proj_two) 
 
         with paddle.no_grad(): 
             target_encoder = self._get_target_encoder() if self.use_momentum else self.online_encoder 
-            target_proj_one, _ = target_encoder(image_one)                                            
-            target_proj_two, _ = target_encoder(image_two)                                            
+            target_proj_one, _ = target_encoder(img_one)                                            
+            target_proj_two, _ = target_encoder(img_two)                                            
             target_proj_one = target_proj_one.detach()                                                                 
             target_proj_two = target_proj_two.detach()             
 
         loss_one = loss_fn(online_pred_one, target_proj_two.detach())    
         loss_two = loss_fn(online_pred_two, target_proj_one.detach())    
                                                                         
-        loss = loss_one + loss_two                                       
+        loss = loss_one + loss_two  
+        # print(loss.mean())                                     
         return loss.mean()                                                                                                   
 
 
 
-resnet = ResNet50()
-learner = BYOL(resnet)
-for step in range(20):
-    # model = ResNet50(pretrained=True)
-    input = paddle.randn([2, 3, 256, 256],'float32')
-    # print(input.shape)
+# resnet = ResNet50()
+# learner = BYOL(resnet)
+# for step in range(20):
+#     # model = ResNet50(pretrained=True)
+#     input = paddle.randn([2, 3, 256, 256],'float32')
+#     # print(input.shape)
 
-    # transform = byol.transforms.TwoCropsTransform(T.Compose(augmentation))
-    # input = transform(input)
-    loss = learner(input)
-    print(loss)
+#     # transform = byol.transforms.TwoCropsTransform(T.Compose(augmentation))
+#     # input = transform(input)
+#     loss = learner(input)
+#     print(loss)
 
 
    

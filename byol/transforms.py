@@ -3,7 +3,7 @@ import paddle
 import paddle.vision.transforms as T
 import paddle.vision.transforms.functional as F 
 from PIL import ImageFilter
-
+import numpy as np
 
 
 class RandomApply():
@@ -76,7 +76,6 @@ class TwoCropsTransform:
     def __call__(self, x):
         q = self.base_transform(x)
         k = self.base_transform(x)
-        return [q, k]
-
-
-
+        q = np.array(q)
+        k = np.array(k)
+        return np.vstack((q, k))
