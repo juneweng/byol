@@ -450,8 +450,7 @@ class BYOL(nn.Layer):
         loss_one = loss_fn(online_pred_one, target_proj_two.detach())    
         loss_two = loss_fn(online_pred_two, target_proj_one.detach())    
                                                                         
-        loss = loss_one + loss_two  
-        # print(loss.mean())                                     
+        loss = loss_one + loss_two                                     
         return loss.mean()                                                                                                   
 
 

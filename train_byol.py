@@ -78,12 +78,7 @@ def main():
         normalize
     ]
 
-    # def tonp(x):
-    #     print(len(np.array(x)))
-    #     # print(len(x))
-    #     return np.array(x)
-        # return x
-    
+
 
     
     byoltransforms = byol.transforms.TwoCropsTransform(transforms.Compose(augmentation))
@@ -93,36 +88,7 @@ def main():
                                         shuffle=True,
                                         batch_size=args.bs)
 
-    # print(cifar10)
 
-
-
-    # train_reader = paddle.batch(
-    #     reader_decorator(paddle.dataset.flowers.train(use_xmap=True)),
-    #     batch_size=args.bs,
-    #     drop_last=True,
-    #     transform=byoltransforms
-    # )    
-    # # train_dataset = ImageFolder(
-    # #         traindir,
-    # #         transform=byoltransforms)
-
-    # train_loader = paddle.io.DataLoader.from_generator(
-    #     capacity=32,
-    #     use_double_buffer=True,
-    #     iterable=True,
-    #     return_list=True,
-    #     use_multiprocess=True)
-    # train_loader.set_sample_list_generator(train_reader)
-
-
-    # # train_sampler = None
-
-
-    # # train_loader = paddle.io.DataLoader(
-    # #     train_dataset, batch_sampler=train_sampler, num_workers=0, batch_size=2)
-
-    # end = time.time()
     for epoch in range(args.epochs):
         train(train_loader, model, optimizer, epoch, args)
             
